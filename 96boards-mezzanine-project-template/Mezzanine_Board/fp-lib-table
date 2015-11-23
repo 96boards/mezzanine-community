@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name mezza)(type KiCad)(uri /Users/KawaiiKeewee/Desktop/Mezzanine-project-template/mezzanine-board/mezza.pretty)(options "")(descr ""))
+  (lib (name mezza-cache)(type KiCad)(uri /Users/KawaiiKeewee/Desktop/Mezzanine-project-template/mezzanine-board/mezza.pretty)(options "")(descr ""))
+)
