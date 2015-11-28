@@ -584,8 +584,6 @@ F 3 "" H 3150 6600 60  0000 C CNN
 	1    3150 6600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5200 5500
-NoConn ~ 5200 5600
 Wire Wire Line
 	1850 5450 2400 5450
 Wire Wire Line
@@ -882,4 +880,86 @@ F 3 "" H 750 3300 60  0000 C CNN
 $EndComp
 NoConn ~ 5200 4900
 NoConn ~ 5200 5000
+Text GLabel 5350 5600 2    60   Input ~ 0
+CBUS1
+Text GLabel 5350 5500 2    60   Input ~ 0
+CBUS0
+Wire Wire Line
+	5350 5500 5200 5500
+Wire Wire Line
+	5350 5600 5200 5600
+Text GLabel 750  7300 3    60   Input ~ 0
+CBUS1
+Text GLabel 1100 7300 3    60   Input ~ 0
+CBUS0
+$Comp
+L Led_Small D?
+U 1 1 5659A589
+P 750 6950
+F 0 "D?" H 700 7075 50  0000 L CNN
+F 1 "RX" H 575 6850 50  0000 L CNN
+F 2 "" V 750 6950 60  0000 C CNN
+F 3 "" V 750 6950 60  0000 C CNN
+	1    750  6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D?
+U 1 1 5659A5E7
+P 1100 6950
+F 0 "D?" H 1050 7075 50  0000 L CNN
+F 1 "TX" H 925 6850 50  0000 L CNN
+F 2 "" V 1100 6950 60  0000 C CNN
+F 3 "" V 1100 6950 60  0000 C CNN
+	1    1100 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	750  7050 750  7300
+Wire Wire Line
+	1100 7050 1100 7300
+$Comp
+L R R?
+U 1 1 5659A75D
+P 750 6450
+F 0 "R?" V 830 6450 50  0000 C CNN
+F 1 "220R" V 750 6450 50  0000 C CNN
+F 2 "" V 680 6450 30  0000 C CNN
+F 3 "" H 750 6450 30  0000 C CNN
+	1    750  6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5659A7A3
+P 1100 6450
+F 0 "R?" V 1180 6450 50  0000 C CNN
+F 1 "220R" V 1100 6450 50  0000 C CNN
+F 2 "" V 1030 6450 30  0000 C CNN
+F 3 "" H 1100 6450 30  0000 C CNN
+	1    1100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5659A808
+P 950 6150
+F 0 "#PWR?" H 950 6000 50  0001 C CNN
+F 1 "+5V" H 950 6290 50  0000 C CNN
+F 2 "" H 950 6150 60  0000 C CNN
+F 3 "" H 950 6150 60  0000 C CNN
+	1    950  6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  6600 750  6850
+Wire Wire Line
+	1100 6600 1100 6850
+Wire Wire Line
+	750  6150 1100 6150
+Wire Wire Line
+	1100 6150 1100 6300
+Wire Wire Line
+	750  6300 750  6150
+Connection ~ 950  6150
 $EndSCHEMATC
