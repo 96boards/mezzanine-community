@@ -1,6 +1,6 @@
-update=Monday, 23 November 2015 'pmt' 12:50:17
+update=Friday, 25 December 2015 'amt' 00:30:42
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../mezzanine-board
+LibDir=mezza.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
