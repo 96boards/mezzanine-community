@@ -22,13 +22,14 @@ In this project, you will find the following:
 ####What is this project for?
 
 This is a project template for anyone who wants to develop a 96Boards Mezzanine board <a href="https://www.96boards.org/products/ce/">(compatible with these boards)</a>. 
-This project's schematic contains the necessary connectors, level shifters, volatage regulator and an FTDI circuit.
 
-The <em>PCB</em> includes all of the mentioned components, plus mounting holes. The holes and connectors have been positioned so that the boards are aligned when mounted. The <em>edge cuts</em> also aligns with the base board. All the mezzanine board <em>IO</em> are connected to the header pins.
+This project's schematic only contains the necessary connectors needed for a mezzanine board. It comes in two formats: Through Hole Connector, or Surface Mounted Connectors.
+
+The <em>PCB</em> includes all of the aforementioned components, plus mounting holes. The holes and connectors have been positioned so that the boards are aligned when mounted. The <em>edge cuts</em> also aligns with the base board. All the mezzanine board <em>IO</em> are connected to the header pins.
 
 ####How to use this project
 
-Clone this repository into a suitable folder on your device. You can either then work directly on this project, or you can append this project to your own.
+Clone this repository into a suitable folder on your device. To load as a KiCad template,  You can either then work directly on this project, or you can append this project to your own.
 
 *Be cautious when working directly on this project to not rename folders (such as the mezza.pretty folder) as this can cause problems with file paths*
 

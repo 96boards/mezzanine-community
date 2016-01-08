@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name mezza)(type KiCad)(uri "$(KIPRJMOD)/96boards.pretty")(options "")(descr ""))
+  (lib (name 96boards)(type KiCad)(uri "$(KIPRJMOD)/96boards.pretty")(options "")(descr ""))
 )
