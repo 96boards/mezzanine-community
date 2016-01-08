@@ -1,6 +1,6 @@
-update=Friday, 25 December 2015 'amt' 00:30:42
+update=Friday, 08 January 2016 'amt' 11:18:47
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -68,4 +68,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=mezza
+LibName30=96boards
