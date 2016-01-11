@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=mezza.pretty
+LibDir=96boards.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -68,4 +68,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=96boards
