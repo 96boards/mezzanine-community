@@ -9,9 +9,8 @@ a mezzanine pcb project.
 In this project, you will find the following:
 - COPYING (license)
 - meta
-- mezza-test-plan.xlsx
-- mezza.pretty (folder containing footprints) °
-- mezza.lib °
+- 96boards.pretty (folder containing footprints) °
+- mezza-cache.lib ° (system file, ignore)
 - mezza.pro °
 - mezza.sch °
 - mezza.kicad_pcb °
