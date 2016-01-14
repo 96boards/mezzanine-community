@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:mezza-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -524,8 +525,8 @@ Wire Wire Line
 	1500 1700 1650 1700
 Wire Wire Line
 	1650 1500 1500 1500
-Text Notes 3200 750  0    39   Italic 0
-This is the second SMD connector. If you want to use a through hole \nconnector instead, delete this.\n
+Text Notes 3250 750  0    39   Italic 0
+This is the passthrough SMD expansion connector on the top side\nof the board. If you want to use a through-hole connector instead,\ndelete this.
 Wire Notes Line
 	5400 3200 5400 550 
 Wire Notes Line
