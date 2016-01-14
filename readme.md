@@ -24,10 +24,13 @@ This is a project template for anyone who wants to develop a 96Boards Mezzanine 
 
 This project's schematic only contains the necessary connectors needed for a mezzanine board. It comes in two formats: Through Hole Connector, or Surface Mounted Connectors.
 
-The <em>PCB</em> includes all of the aforementioned components, plus mounting holes. The holes and connectors have been positioned so that the boards are aligned when mounted. The <em>edge cuts</em> also aligns with the base board. All the mezzanine board <em>IO</em> are connected to the header pins.
+The <em>PCB</em> includes the connectors, plus mounting holes. The holes and connectors have been positioned so that the boards are aligned when mounted. The <em>edge cuts</em> also aligns with the base board. All the mezzanine board <em>IO</em> are connected to the header pins.
 
 ####How to use this project
 
 This project has been formatted to work with KiCad's "New Project from Template" tool. You should clone this project into <em>/Applications/Kicad/kicad.app/Contents/SharedSupport/template/</em>, or <em>/Library/Application Support/kicad/template/</em>. Once cloned, you can use the new template by navigating to File > New Project > New Project From Template. After selecting your save location, click on <em>System Templates</em> or <em>Portable Templates</em> (depending on which file path you previously selected to clone the project to). Upon validation of the file path, the 96Boards mezzanine template should appear. Select the template and you'll be good to go.
+
+#####Changing to Through Hole Connector
+By default, this project loads with the connectors set up as SMD. If you would prefer to use a through hole instead; delete the connector in the blue box in the schematic.
 
 Copyright (c) 2016, Linaro, Inc.
