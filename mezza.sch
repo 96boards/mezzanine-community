@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:96boards-cache
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:96boards
 LIBS:mezza-cache
 EELAYER 25 0
 EELAYER END
@@ -95,7 +97,7 @@ U 1 1 55D44709
 P 1900 2050
 F 0 "P1" H 1900 3100 50  0000 C CNN
 F 1 "CONN_02X20" V 1900 2050 50  0000 C CNN
-F 2 "96boards:Socket_Strip_SMD_2x20_Pitch2mm" H 1900 1100 60  0001 C CNN
+F 2 "96boards:Pin_Header_Straight_2x20_Pitch2mm" H 1900 1100 60  0001 C CNN
 F 3 "" H 1900 1100 60  0000 C CNN
 F 4 "Yxcon" H 1900 2050 60  0001 C CNN "Mfr"
 F 5 "P220-1220A0xMxxxx2" H 1900 2050 60  0001 C CNN "Mfr Part #"
@@ -125,7 +127,7 @@ F 3 "" H 800 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3950 1500 0    60   Output ~ 0
-UART_RTS
+UART0_RTS
 Text GLabel 1500 2100 0    60   BiDi ~ 0
 I2C1_SDA
 Text GLabel 1500 2000 0    60   BiDi ~ 0
@@ -146,7 +148,7 @@ F 3 "" H 3950 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3950 1300 0    60   Output ~ 0
-UART_TX
+UART0_TX
 $Comp
 L GND #PWR08
 U 1 1 55D481CF
@@ -170,7 +172,7 @@ F 3 "" H 4700 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3950 1200 0    60   Input ~ 0
-UART_CTS
+UART0_CTS
 Text GLabel 2250 1200 2    60   Input ~ 0
 PWR_BTN_N
 Text GLabel 2250 1300 2    60   Input ~ 0
@@ -194,7 +196,7 @@ U 1 1 55D48226
 P 4350 2050
 F 0 "P2" H 4350 3100 50  0000 C CNN
 F 1 "CONN_02X20" V 4350 2050 50  0000 C CNN
-F 2 "96boards:Pin_Header_SMD_2x20_Pitch2mm" H 4350 1100 60  0001 C CNN
+F 2 "96boards:Socket_Strip_Straight_2x20_Pitch2mm" H 4350 1100 60  0001 C CNN
 F 3 "" H 4350 1100 60  0000 C CNN
 F 4 "Yxcon" H 4350 2050 60  0001 C CNN "Mfr"
 F 5 "F240-1220A0xMUx1" H 4350 2050 60  0001 C CNN "Mfr Part #"
@@ -248,7 +250,7 @@ GPIO_A
 Text GLabel 2250 2200 2    60   Input ~ 0
 GPIO_B
 Text GLabel 3950 1400 0    60   Input ~ 0
-UART_RX
+UART0_RX
 Text Notes 2650 3400 0    60   ~ 0
 Expansion Connectors
 Text GLabel 4700 1200 2    60   Input ~ 0
