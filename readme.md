@@ -28,12 +28,6 @@ The <em>PCB</em> includes all of the aforementioned components, plus mounting ho
 
 ####How to use this project
 
-Clone this repository into a suitable folder on your device. To load as a KiCad template,  You can either then work directly on this project, or you can append this project to your own.
+This project has been formatted to work with KiCad's "New Project from Template" tool. You should clone this project into <em>/Applications/Kicad/kicad.app/Contents/SharedSupport/template/</em>, or <em>/Library/Application Support/kicad/template/</em>. Once cloned, you can use the new template by navigating to File > New Project > New Project From Template. After selecting your save location, click on <em>System Templates</em> or <em>Portable Templates</em> (depending on which file path you previously selected to clone the project to). Upon validation of the file path, the 96Boards mezzanine template should appear. Select the template and you'll be good to go.
 
-*Be cautious when working directly on this project to not rename folders (such as the mezza.pretty folder) as this can cause problems with file paths*
-
-####Using the test plan
-
-In this project includes a mock test plan for your board. The tests written in it may not be of use for your own board, but serve as a good reference point to start.
-
-Copyright (c) 2015, Linaro, Inc.
+Copyright (c) 2016, Linaro, Inc.
