@@ -145,8 +145,8 @@ Text GLabel 3950 2200 0    60   Input ~ 0
 GPIO_A
 Text GLabel 3950 1400 0    60   Input ~ 0
 UART0_RX
-Text Notes 2650 3400 0    60   ~ 0
-Expansion Connectors
+Text Notes 875  5350 0    60   ~ 0
+96Boards Low-Speed Expansion Connectors\n\nBy default, this is set up for a stackable surface-mount\narrangement. Do the following to switch to a through-hole\nconnector:\n\nOption 1) For a surface-mount non-stackable connector\n- Delete P2\n\nOption 2) For a through-hole non-stackable pin header\n- Delete P2\n- Change P1 footprint to "Pin_Header_Straight_2x20_Pitch2mm"\n\nOption 3) For a through-hole stackable socket strip connector\n- Delete P1\n- Change P2 footprint to "Socket_Strip_Straight_2x20_Pitch2mm"\n\nOption 2 and 3 are electrically equivalent. They differ on which side\nof the board to place the silkscreen labels.\n\nDelete this note once you have chosen the connector style.
 Text GLabel 4700 1200 2    60   Input ~ 0
 PWR_BTN_N
 Text GLabel 3950 1600 0    60   Input ~ 0
@@ -286,16 +286,6 @@ Wire Wire Line
 	3950 1700 4100 1700
 Wire Wire Line
 	4100 1500 3950 1500
-Text Notes 800  800  0    39   Italic 0
-This is the passthrough SMD expansion connector on the top side\nof the board. If you want to use a through-hole connector instead,\ndelete this.
-Wire Notes Line
-	2950 3250 2950 600 
-Wire Notes Line
-	2950 600  700  600 
-Wire Notes Line
-	700  600  700  3250
-Wire Notes Line
-	700  3250 2950 3250
 $Comp
 L GND #PWR07
 U 1 1 55BEAA68
@@ -536,4 +526,16 @@ Wire Wire Line
 	1500 1700 1650 1700
 Wire Wire Line
 	1650 1500 1500 1500
+Text Notes 1375 825  0    60   ~ 0
+Bottom-side Pin Header
+Text Notes 3925 825  0    60   ~ 0
+Top Side Socket Strip
+Wire Notes Line
+	675  650  675  5475
+Wire Notes Line
+	675  5475 5600 5475
+Wire Notes Line
+	5600 5475 5600 650 
+Wire Notes Line
+	5600 650  675  650 
 $EndSCHEMATC
