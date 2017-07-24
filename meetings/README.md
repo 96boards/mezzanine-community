@@ -8,3 +8,4 @@ An informal steering committee of community members will allocate resources to a
 ## Past sessions
 
 - [07-17-17](07-17-17.md)
+- [07-24-17](07-17-17.md)
