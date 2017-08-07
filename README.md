@@ -1,4 +1,4 @@
-# 96boards-community
+# 96boards Community Mezzanine Initiative
 
 ## About this Project
 
