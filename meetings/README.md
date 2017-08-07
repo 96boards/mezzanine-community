@@ -9,3 +9,4 @@ An informal steering committee of community members will allocate resources to a
 
 - [07-17-17](07-17-17.md)
 - [07-24-17](07-24-17.md)
+- [07-31-17](07-31-17.md)
