@@ -1,0 +1,11 @@
+(module PAD_1x1 (layer F.Cu) (tedit 5987BB0F)
+  (descr "Through hole pin header")
+  (tags "pin header")
+  (fp_text reference J1 (at 1.87 0.02) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PAD_1x1 (at -0.02 -1.96) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask))
+)
