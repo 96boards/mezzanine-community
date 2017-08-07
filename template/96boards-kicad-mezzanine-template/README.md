@@ -3,7 +3,7 @@
 This template provides you with all the base files required for 
 a 96Boards mezzanine pcb project.
 
-#### Folder Contents:
+#### Template Folder Contents:
 
 - COPYING (license)
 - meta
@@ -16,14 +16,16 @@ a 96Boards mezzanine pcb project.
 
 *Files marked with ° are the KiCad project files*
 
-## What is this project for?
+## To-Do's
 
-This is a project template for anyone who wants to develop a 96Boards
-Mezzanine board <a
-href="https://www.96boards.org/products/ce/">(compatible with these
-boards)</a>.
+Coming soon...
 
-This project's schematic only contains the necessary connectors needed
+## What is this template for?
+
+This is a template for anyone who wants to develop a Consumer Edition 96Boards
+Mezzanine board - [List of Consumer Edition Boards](https://www.96boards.org/products/ce/)
+
+This schematic only contains the necessary connectors needed
 for a mezzanine board. By default it is set up for SMD connectors, but
 can easily be changed to through-hole.
 
@@ -33,7 +35,7 @@ mounted. The <em>edge cuts</em> also aligns with the base board. All the
 mezzanine board low-speed expansion connector <em>IO</em> is connected
 to the header pins. High-speed expansion IO has not yet been added.
 
-#### How to use this project
+## How to use this project
 
 This project has been formatted to work with KiCad's "New Project from
 Template" tool. You should clone this project into your KiCad templates
@@ -49,7 +51,7 @@ clone the project to). Upon validation of the file path, the 96Boards
 mezzanine template should appear under the 96Boards logo. Select the
 template and you'll be good to go.
 
-##### Changing to Through Hole Connector
+## Changing to Through Hole Connector
 
 By default, this project loads with the connectors set up as SMD. If you
 would prefer to use a through hole instead, follow the instructions on
