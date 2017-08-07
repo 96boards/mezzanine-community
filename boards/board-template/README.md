@@ -1,3 +1,0 @@
-# New Board Template
-
-Coming soon...
