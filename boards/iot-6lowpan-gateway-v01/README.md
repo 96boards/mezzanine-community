@@ -1,4 +1,4 @@
-# IoT_6LoWPAN_gateway_v01
+# IoT-6LoWPAN-gateway-v01
 
 ![Logo](figures/gateway-mounted.jpg)
 
@@ -8,7 +8,7 @@
 This project aims to add WSN (Wireless Sensor Network) connectivity to the DragonBoard 410C for applications that need low-cost, long-range and low data rate communication. The gateway should be able to operate in remote environments without direct 
 human intervention. 
 
-The IoT_6LoWPAN_gateway_v01 board features:
+The IoT-6LoWPAN-gateway-v01 board features:
 - 6loWPAN Sub-1GHz Radio (CC1310).
 - 3G modem (Telit HE910-EUD). 
 - Circuitry for automatic switch between AC Adapter power supply and backup battery. 
