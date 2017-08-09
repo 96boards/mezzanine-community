@@ -106,6 +106,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YJBUTBOC
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for mezza\Design Rule Check - mezza.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
