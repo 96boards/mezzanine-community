@@ -30,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:96boards
 LIBS:mezza-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -145,7 +145,7 @@ Text GLabel 3950 2200 0    60   Input ~ 0
 GPIO_A
 Text GLabel 3950 1400 0    60   Input ~ 0
 UART0_RX
-Text Notes 875  5350 0    60   ~ 0
+Text Notes 1600 5450 0    60   ~ 0
 96Boards Low-Speed Expansion Connectors\n\nBy default, this is set up for a stackable surface-mount\narrangement. Do the following to switch to a through-hole\nconnector:\n\nOption 1) For a surface-mount non-stackable connector\n- Delete P2\n\nOption 2) For a through-hole non-stackable pin header\n- Delete P2\n- Change P1 footprint to "Pin_Header_Straight_2x20_Pitch2mm"\n\nOption 3) For a through-hole stackable socket strip connector\n- Delete P1\n- Change P2 footprint to "Socket_Strip_Straight_2x20_Pitch2mm"\n\nOption 2 and 3 are electrically equivalent. They differ on which side\nof the board to place the silkscreen labels.\n\nDelete this note once you have chosen the connector style.
 Text GLabel 4700 1200 2    60   Input ~ 0
 PWR_BTN_N
@@ -530,12 +530,277 @@ Text Notes 1375 825  0    60   ~ 0
 Bottom-side Pin Header
 Text Notes 3925 825  0    60   ~ 0
 Top Side Socket Strip
+$Comp
+L CONN_02X30 P3
+U 1 1 598D5B9D
+P 8550 2350
+F 0 "P3" H 8550 3900 50  0000 C CNN
+F 1 "CONN_02X30" V 8550 2300 50  0000 C CNN
+F 2 "96boards:61083-063400LF" H 8550 1850 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent/fci/drawing/61083.pdf" H 8550 1850 50  0001 C CNN
+	1    8550 2350
+	1    0    0    -1  
+$EndComp
+Text Notes 7200 4750 0    60   ~ 0
+96Boards High-Speed Expansion Connector\n\nDelete this connector if you only need the low-speed interfaces.\n\nDelete this note once you have chosen the connector style.
 Wire Notes Line
-	675  650  675  5475
+	6700 600  10700 600 
 Wire Notes Line
-	675  5475 5600 5475
+	10700 600  10700 4900
 Wire Notes Line
-	5600 5475 5600 650 
+	10700 4900 6700 4900
 Wire Notes Line
-	5600 650  675  650 
+	6700 4900 6700 600 
+Wire Notes Line
+	5700 600  700  600 
+Wire Notes Line
+	700  600  700  5600
+Wire Notes Line
+	700  5600 5700 5600
+Wire Notes Line
+	5700 5600 5700 600 
+$Comp
+L GND #PWR?
+U 1 1 598D640A
+P 8200 3900
+F 0 "#PWR?" H 8200 3650 50  0001 C CNN
+F 1 "GND" H 8200 3750 50  0000 C CNN
+F 2 "" H 8200 3900 60  0000 C CNN
+F 3 "" H 8200 3900 60  0000 C CNN
+	1    8200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 598D6433
+P 8900 3900
+F 0 "#PWR?" H 8900 3650 50  0001 C CNN
+F 1 "GND" H 8900 3750 50  0000 C CNN
+F 2 "" H 8900 3900 60  0000 C CNN
+F 3 "" H 8900 3900 60  0000 C CNN
+	1    8900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1100 8900 3900
+Wire Wire Line
+	8900 3700 8800 3700
+Wire Wire Line
+	8900 3400 8800 3400
+Connection ~ 8900 3700
+Wire Wire Line
+	8900 3100 8800 3100
+Connection ~ 8900 3400
+Wire Wire Line
+	8900 2800 8800 2800
+Connection ~ 8900 3100
+Wire Wire Line
+	8900 2300 8800 2300
+Connection ~ 8900 2800
+Wire Wire Line
+	8900 2000 8800 2000
+Connection ~ 8900 2300
+Wire Wire Line
+	8900 1700 8800 1700
+Connection ~ 8900 2000
+Wire Wire Line
+	8900 1400 8800 1400
+Connection ~ 8900 1700
+Wire Wire Line
+	8900 1100 8800 1100
+Connection ~ 8900 1400
+Wire Wire Line
+	8200 1500 8200 3900
+Wire Wire Line
+	8200 3600 8300 3600
+Wire Wire Line
+	8200 3300 8300 3300
+Connection ~ 8200 3600
+Wire Wire Line
+	8200 3000 8300 3000
+Connection ~ 8200 3300
+Wire Wire Line
+	8200 2700 8300 2700
+Connection ~ 8200 3000
+Wire Wire Line
+	8200 2400 8300 2400
+Connection ~ 8200 2700
+Wire Wire Line
+	8200 2100 8300 2100
+Connection ~ 8200 2400
+Wire Wire Line
+	8200 1800 8300 1800
+Connection ~ 8200 2100
+Wire Wire Line
+	8200 1500 8300 1500
+Connection ~ 8200 1800
+Text GLabel 8000 900  0    60   BiDi ~ 0
+SD_DAT0/SPI1_DOUT
+Text GLabel 8000 1000 0    60   BiDi ~ 0
+SD_DAT1
+Text GLabel 8000 1100 0    60   BiDi ~ 0
+SD_DAT2
+Text GLabel 8000 1200 0    60   BiDi ~ 0
+SD_DAT3/SPI1_CS
+Text GLabel 8000 1300 0    60   BiDi ~ 0
+SD_SCLK/SPI1_SCLK
+Text GLabel 8000 1400 0    60   BiDi ~ 0
+SD_CMD/SPI1_DIN
+Text GLabel 8000 1600 0    60   BiDi ~ 0
+CLK0/CSI0_MCLK
+Text GLabel 8000 1700 0    60   BiDi ~ 0
+CLK1/CSI1_MCLK
+Text GLabel 8000 1900 0    60   BiDi ~ 0
+DSI_CLK+
+Text GLabel 8000 2000 0    60   BiDi ~ 0
+DSI_CLK-
+Text GLabel 8000 2200 0    60   BiDi ~ 0
+DSI_D0+
+Text GLabel 8000 2300 0    60   BiDi ~ 0
+DSI_D0-
+Text GLabel 8000 2500 0    60   BiDi ~ 0
+DSI_D1+
+Text GLabel 8000 2600 0    60   BiDi ~ 0
+DSI_D1-
+Text GLabel 8000 2800 0    60   BiDi ~ 0
+DSI_D2+
+Text GLabel 8000 2900 0    60   BiDi ~ 0
+DSI_D2-
+Text GLabel 8000 3100 0    60   BiDi ~ 0
+DSI_D3+
+Text GLabel 8000 3200 0    60   BiDi ~ 0
+DSI_D3-
+Text GLabel 8000 3400 0    60   BiDi ~ 0
+USB_D+
+Text GLabel 8000 3500 0    60   BiDi ~ 0
+USB_D-
+Text GLabel 8000 3700 0    60   BiDi ~ 0
+HSIC_STR
+Text GLabel 8000 3800 0    60   BiDi ~ 0
+HSIC_DATA
+Text GLabel 9100 900  2    60   BiDi ~ 0
+CSI0_C+
+Text GLabel 9100 1000 2    60   BiDi ~ 0
+CSI0_C-
+Text GLabel 9100 1200 2    60   BiDi ~ 0
+CSI0_D0+
+Text GLabel 9100 1300 2    60   BiDi ~ 0
+CSI0_D0-
+Text GLabel 9100 1500 2    60   BiDi ~ 0
+CSI0_D1+
+Text GLabel 9100 1600 2    60   BiDi ~ 0
+CSI0_D1-
+Text GLabel 9100 1800 2    60   BiDi ~ 0
+CSI0_D2+
+Text GLabel 9100 1900 2    60   BiDi ~ 0
+CSI0_D2-
+Text GLabel 9100 2100 2    60   BiDi ~ 0
+CSI0_D3+
+Text GLabel 9100 2200 2    60   BiDi ~ 0
+CSI0_D3-
+Text GLabel 9100 2400 2    60   BiDi ~ 0
+I2C2_SCL
+Text GLabel 9100 2500 2    60   BiDi ~ 0
+I2C2_SDA
+Text GLabel 9100 2600 2    60   BiDi ~ 0
+I2C3_SCL
+Text GLabel 9100 2700 2    60   BiDi ~ 0
+I2C3_SDA
+Text GLabel 9100 2900 2    60   BiDi ~ 0
+CSI1_D0+
+Text GLabel 9100 3000 2    60   BiDi ~ 0
+CSI1_D0-
+Text GLabel 9100 3200 2    60   BiDi ~ 0
+CSI1_D1+
+Text GLabel 9100 3300 2    60   BiDi ~ 0
+CSI1_D1-
+Text GLabel 9100 3500 2    60   BiDi ~ 0
+CSI1_C+
+Text GLabel 9100 3600 2    60   BiDi ~ 0
+CSI1_C-
+NoConn ~ 8800 3800
+Wire Wire Line
+	8000 900  8300 900 
+Wire Wire Line
+	8300 1000 8000 1000
+Wire Wire Line
+	8000 1100 8300 1100
+Wire Wire Line
+	8300 1200 8000 1200
+Wire Wire Line
+	8000 1300 8300 1300
+Wire Wire Line
+	8300 1400 8000 1400
+Wire Wire Line
+	8000 1600 8300 1600
+Wire Wire Line
+	8000 1700 8300 1700
+Wire Wire Line
+	8300 1900 8000 1900
+Wire Wire Line
+	8300 2000 8000 2000
+Wire Wire Line
+	8300 2200 8000 2200
+Wire Wire Line
+	8300 2300 8000 2300
+Wire Wire Line
+	8300 2500 8000 2500
+Wire Wire Line
+	8300 2600 8000 2600
+Wire Wire Line
+	8300 2800 8000 2800
+Wire Wire Line
+	8300 2900 8000 2900
+Wire Wire Line
+	8300 3100 8000 3100
+Wire Wire Line
+	8300 3200 8000 3200
+Wire Wire Line
+	8000 3400 8300 3400
+Wire Wire Line
+	8300 3500 8000 3500
+Wire Wire Line
+	8000 3700 8300 3700
+Wire Wire Line
+	8300 3800 8000 3800
+Wire Wire Line
+	8800 3600 9100 3600
+Wire Wire Line
+	9100 3500 8800 3500
+Wire Wire Line
+	8800 3300 9100 3300
+Wire Wire Line
+	9100 3200 8800 3200
+Wire Wire Line
+	8800 3000 9100 3000
+Wire Wire Line
+	9100 2900 8800 2900
+Wire Wire Line
+	8800 2700 9100 2700
+Wire Wire Line
+	8800 2600 9100 2600
+Wire Wire Line
+	8800 2500 9100 2500
+Wire Wire Line
+	9100 2400 8800 2400
+Wire Wire Line
+	8800 2200 9100 2200
+Wire Wire Line
+	9100 2100 8800 2100
+Wire Wire Line
+	8800 1900 9100 1900
+Wire Wire Line
+	9100 1800 8800 1800
+Wire Wire Line
+	8800 1600 9100 1600
+Wire Wire Line
+	9100 1500 8800 1500
+Wire Wire Line
+	8800 1300 9100 1300
+Wire Wire Line
+	9100 1200 8800 1200
+Wire Wire Line
+	8800 1000 9100 1000
+Wire Wire Line
+	9100 900  8800 900 
 $EndSCHEMATC
