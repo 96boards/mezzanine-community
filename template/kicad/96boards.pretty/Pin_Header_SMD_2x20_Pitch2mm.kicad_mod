@@ -1,4 +1,4 @@
-(module Pin_Header_SMD_2x20_Pitch2mm (layer F.Cu) (tedit 55F9A19C)
+(module Pin_Header_SMD_2x20_Pitch2mm (layer F.Cu) (tedit 598D2D18)
   (descr "Double row SMD 2mm pin header, 2x20 contacts")
   (attr smd)
   (fp_text reference REF** (at -1 -2) (layer F.SilkS)
@@ -13,7 +13,7 @@
   (fp_line (start 2.95 -0.6) (end 2.95 38.7) (layer F.SilkS) (width 0.15))
   (pad "" np_thru_hole circle (at -1 37 270) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad 1 smd rect (at 1.25 0 270) (size 0.89 3) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -3.25 -0.01 270) (size 0.89 3) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -3.25 0 270) (size 0.89 3) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -1 1 270) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad 4 smd rect (at -3.25 2 270) (size 0.89 3) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -3.25 4 270) (size 0.89 3) (layers F.Cu F.Paste F.Mask))
@@ -54,7 +54,7 @@
   (pad 37 smd rect (at 1.25 36 270) (size 0.89 3) (layers F.Cu F.Paste F.Mask))
   (pad 39 smd rect (at 1.25 38 270) (size 0.89 3) (layers F.Cu F.Paste F.Mask))
   (model Pin_Headers.3dshapes/Pin_Header_Straight_2x20.wrl
-    (at (xyz -0.0394 -0.749 0.015760))
+    (at (xyz -0.0394 -0.749 0.01576))
     (scale (xyz 0.787 0.787 0.5))
     (rotate (xyz 0 0 90))
   )
