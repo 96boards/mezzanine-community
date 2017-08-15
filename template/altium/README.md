@@ -48,4 +48,7 @@ By default, this project loads with the connectors set up as SMD. If you
 would prefer to use a through hole instead, follow the instructions on
 the schematic to change the footprint.
 
-Copyright (c) 2017, Gustavo Retuci Pinheiro, Rafael Eduardo Ruviaro Christ.
+## Authors
+
+- Rafael Christ, rafaelchrist@gmail.com
+- Gustavo Retuci Pinheiro, gustavo_r_p@hotmail.com

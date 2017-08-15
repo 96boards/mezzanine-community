@@ -2,6 +2,8 @@ Simplified BSD License
 ======================
 
 _Copyright © `2015-2017`, `Linaro, Inc.`_  
+_Copyright © `2017`, `QWERTY Embedded Design, LLC`_  
+_Copyright © `2017`, `Gustavo Retuci Pinheiro, Rafael Eduardo Ruviaro Christ`_  
 _All rights reserved._
 
 Redistribution and use in source and binary forms, with or without

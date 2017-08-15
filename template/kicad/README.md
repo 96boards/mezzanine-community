@@ -66,5 +66,3 @@ CHANGE, and <em>Extra Footprints</em> is set to DELETE. Click <em>Read
 Current Netlist</em> to load the new connector. Now you should have only
 one connector on the board, and when you view in 3D view, there will be
 a through hole connector.
-
-Copyright (c) 2016, Linaro, Inc.
