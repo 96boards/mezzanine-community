@@ -49,9 +49,9 @@ the schematic to change the footprint.
 
 ## Authors
 
-- [Rafael Eduardo Ruviaro Christ](rafaelchrist@gmail.com)
-- [Gustavo Retuci Pinheiro](gustavo_r_p@hotmail.com).
+- Rafael Christ, rafaelchrist@gmail.com
+- Gustavo Retuci Pinheiro, gustavo_r_p@hotmail.com
 
 ## Acknowledgments
 
-Thanks [Cezar Menezes](cezar.menezes@live.com) for the early version of the template.
+Thanks Cezar Menezes, cezar.menezes@live.com, for the early version of the template.
