@@ -10,6 +10,7 @@ a 96Boards mezzanine pcb project.
 - datasheets (connector datasheets)
 - mezza.brd (PCB file) °
 - mezza.lbr (project lib file) °
+- mezza.pdf (pdf schematic file)
 - mezza.sch (schematic file) °
 
 
