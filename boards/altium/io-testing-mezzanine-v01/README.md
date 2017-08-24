@@ -3,6 +3,7 @@
 This is a board based on the [Altium template](../../../template/altium).
 
 This board outputs the whole low-speed connector pins (still 1.8V) to a 2.54mm pitch.
+
 It also is stackable, so any mezzanine can be attached on top of it.
 
 #### Template Folder Contents:
@@ -36,4 +37,5 @@ The purposes of this board are:
 - be stackable
 
 Copyright (c) 2017, Gustavo Retuci Pinheiro.
+
 Copyright (c) 2017, Rafael Eduardo Ruviaro Christ.
