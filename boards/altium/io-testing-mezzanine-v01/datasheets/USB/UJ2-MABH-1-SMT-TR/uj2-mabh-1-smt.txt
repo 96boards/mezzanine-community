@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-19012017-116637";"";
+"REFERENCE";"UJ2-MABH-1-SMT";"";
+"TraceParts.PartTitle";"UJ2-MABH-SMT Series - Mini AB, USB 2.0, 1 A, Right Angle, Surface Mount (SMT), USB Jack Connector";"";
+"TraceParts.InstanceId";"10-19012017-116637BNL9KFTLSYMOGC5AX4PM6QIA5";"";
+"DESIGN";"3 µin Plating Thickness, Black Insulator, USB Jack";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"CUI";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"CUI:10-19012017-116637";"";

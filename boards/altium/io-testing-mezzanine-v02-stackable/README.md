@@ -1,8 +1,10 @@
-# I/O-Testing-Mezzanine-v01
+# I/O-Testing-Mezzanine-v02
 
 This is a board based on the [Altium template](../../../template/altium).
 
 This board outputs the whole low-speed connector pins (still 1.8V) to a 2.54mm pitch.
+
+It also is stackable, so any other mezzanine can be attached on top of it.
 
 #### Template Folder Contents:
 
@@ -32,7 +34,7 @@ The purposes of this board are:
 - test some GPIOs with onboard LEDs and push-buttons
 - use the USB available in the high-speed connector
 - output the I2C available on the high-speed connector
-
+- be stackable
 
 Copyright (c) 2017, Gustavo Retuci Pinheiro.
 
