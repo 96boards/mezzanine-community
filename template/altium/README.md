@@ -49,4 +49,5 @@ would prefer to use a through hole instead, follow the instructions on
 the schematic to change the footprint.
 
 Copyright (c) 2017, Gustavo Retuci Pinheiro
+
 Copyright (c) 2017, Rafael Eduardo Ruviaro Christ.
