@@ -27,7 +27,7 @@ An informal steering committee of community members will allocate resources to a
 
 - Weekly video conference meetings are open to the public on BlueJeans. Join every Monday at 3:00 UTC to take part in the discussion.
    - https://bluejeans.com/6199314558/
-- [View notes](meetings/README.md) from previous meetings
+- [View notes](meetings) from previous meetings
 
 ## Acknowledgement
 
