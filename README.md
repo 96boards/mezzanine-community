@@ -36,4 +36,6 @@ An informal steering committee of community members will allocate resources to a
 - Rafael Christ, rafaelchrist@gmail.com - Altium / Eagle Reviewer
 - Gustavo Retuci Pinheiro, gustavo_r_p@hotmail.com - Altium / Eagle Reviewer
 - Sahaj Sarup, sahajsarup@gmail.com - Reviewer
+- Grant Likely, grant.likely@secretlab.ca - KiCad contributor
+- Sophie Haynes - KiCad contributor
 
