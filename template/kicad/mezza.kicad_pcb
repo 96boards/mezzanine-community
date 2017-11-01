@@ -3,7 +3,7 @@
   (general
     (links 61)
     (no_connects 61)
-    (area 85.221429 87.3 185.252801 159.500001)
+    (area 85.221429 87.3 258.900572 159.500001)
     (thickness 1.6)
     (drawings 14)
     (tracks 0)
@@ -1376,7 +1376,7 @@
     )
   )
 
-  (gr_text "This is a template for a 96Boards CE Standard size\nmezzanine PCB. It uses the 96Boards_CE_Outline_Std\nfootprint to place the mounting holes, show the\nconnector locations, and board outline. The outline\nfootprint will help you ensure your components and\nconnectors are placed correctly.\n\nIf you want to use either the extended-A or\nextended-B board size, select the outline footprint\nand replace it with the Extended-A or -B variant from\nthe library.\n\nNote that the LS and HS connector footprints are\nseparate from the board outline. This is so that\nthe connector footprints can be removed or replaced\nwith a different connector (ex. a through hole versions).\nIf you replace the connector footprint, make sure it\nlines up with the guidance lines from the outline.\n\nDelete this note when finished." (at 193.472 125.4) (layer F.Cu)
+  (gr_text "This is a template for a 96Boards CE Standard size\nmezzanine PCB. It uses the 96Boards_CE_outline_std\nfootprint to place the mounting holes, show the\nconnector locations, and board outline. The outline\nfootprint will help you ensure your components and\nconnectors are placed correctly.\n\nIf you want to use the extended board size then replace\nthe outline footprint with the 96Boards_CE_outline_extd\nvariant from the library and modify the board cut outlines\nmatch the template.\n\nNote that the LS and HS connector footprints are\nseparate from the board outline. This is so that\nthe connector footprints can be removed or replaced\nwith a different connector (ex. a through hole versions).\nIf you replace the connector footprint, make sure it\nlines up with the guidance lines from the outline.\n\nDelete this note when finished." (at 193.472 125.4) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (dimension 15.45 (width 0.3) (layer F.Fab)
