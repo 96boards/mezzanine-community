@@ -1,4 +1,4 @@
-# I/O-Testing-Mezzanine-v01
+# I/O-Testing-Mezzanine
 
 This is a board based on the [Altium template](../../../template/altium).
 
