@@ -2,7 +2,8 @@
 
 These boards were designed using the following [design files](../../template/altium/)
 
-- [I/O Mezzanine v01](io-testing-mezzanine-v01/)
-- [IoT Mezzanine v01](iot-6lowpan-gateway-v01/)
+- [I/O Mezzanine](io-testing-mezzanine/)
+- [I/O Mezzanine_stackable](io-testing-mezzanine-stackable/)
+- [IoT Mezzanine v01](iot-6lowpan-gateway/)
 
 
