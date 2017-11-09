@@ -4,6 +4,6 @@ These boards were designed using the following [design files](../../template/alt
 
 - [I/O Mezzanine](io-testing-mezzanine/)
 - [I/O Mezzanine_stackable](io-testing-mezzanine-stackable/)
-- [IoT Mezzanine v01](iot-6lowpan-gateway/)
+- [IoT Mezzanine](iot-6lowpan-gateway/)
 
 
