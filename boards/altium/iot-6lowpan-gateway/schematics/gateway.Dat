@@ -1,0 +1,24 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~IoT_6_lowPan_gateway_v01.PrjPcb|ReportField=ProjectFullPath~C:\Users\gusta\Desktop\DragonShield_v1.0\IoT_6_lowPan_gateway_v01.PrjPcb|ReportField=Title~Bill of Materials For Project [IoT_6_lowPan_gateway_v01.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~48|ReportField=ReportTime~10:27:46 PM|ReportField=ReportDate~2017-08-06|ReportField=ReportDateTime~2017-08-06 10:27:46 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2017-08-06|ReportField=CurrentTime~10:27:40 PM|ReportField=Date~2017-06-13 2:38:07 PM|ReportField=DocumentFullPathAndName~C:\Users\gusta\Desktop\DragonShield_v1.0\IoT_6_lowPan_gateway_v01.SchDoc|ReportField=DocumentName~IoT_6_lowPan_gateway_v01.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2017-08-06|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=True:CenterVertical=True:PrintScale=0.70:XCorrection=1.00:YCorrection=1.00:PrintKind=2:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=2:PaperLength=1000:PaperWidth=1000:Scale=100:PaperSource=7:PrintQuality=-3:MediaType=1:DitherType=10:PrintScaleMode=0:PaperKind=A4:PaperIndex=9|ReportField=ProjectName~IoT_6_lowPan_gateway_v01.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~oneRF_Base_COM_v04|ReportField=DataSourceFileName~IoT_6_lowPan_gateway_v01.PrjPcb|ReportField=DataSourceFullPath~C:\Users\gusta\Desktop\DragonShield_v1.0\IoT_6_lowPan_gateway_v01.PrjPcb
+1|MKDSN1,5/2-5,08|MKDSN 1,5/ 2-5,08 Printklemme   Nennstrom: 13,5 A Nennspannung: 250 V Rastermaß: 5,08 mm Polzahl: 2 Anschlussart: Schraubanschluss Montage: Löten Anschlussrichtung Leiter/Platine: 0 ° Artikelnummer: 1729128 Source: http://eshop.phoenixcontact.com .. 1729128.pdf|BAT_BACK, PWR|MKDSN1,5/2-5,08|MKDSN1,5/2-5,08|2
+2|470uF/10V/105C|POLARIZED CAPACITOR, European symbol|C1, C5|E2,5-6,3|CPOL-EUE2.5-6.3|2
+3|C2012X5R1C226K125AC|CAP, CERM, 22 µF, 16 V, +/- 10%, X5R, 0805|C2|0805_HV|C2012X5R1C226K125AC|1
+4|CL10B222KB8SFNC|CAP, CERM, 2200 pF, 50 V, +/- 10%, X7R, 0603|C3|0603|C1005X7R1H222K|1
+5|0.1uF|CAPACITOR, European symbol|C4|0603|C-EUC0603_DWS|1
+6|Header 3|Header, 3-Pin|CONSOLE|HDR1X3|Header 3|1
+7|Diode|Diode, 100v, 1V, 200mA, -65º, 175º, SMT|D1, D2, D4|SOD-80|Diode|3
+8|Diode TVS|Schottky Diode|D3|SMB|D Schottky|1
+9|2A Fast|Resettable Fuse PTCResettable Fuse. Spark Fun Electronics SKU : COM-08357|F2|C1206|PTCSMD-W|1
+10|CONECTOR_1X042.54MM||JTAG_UC|HDR1X4|CONECTOR_1X042.54MM|1
+11|500uH|SMD Common-Mode Choke for signal lines WE-SL2 For distortion-free removal of noise from transmitted electrical signals - Double current-compensated choke -- Current compensated choke for data and signal lines -- Power supply systems -- Filter for measurement signals|L1|WE-SL2_74422...|WE-SL2|1
+12|LED/WHITE/0603||LED_MSP|LED0603|LED0603_WWS|1
+13|LED/Red/0603||LED_POWER|LED0603|LED0603DWS|1
+14|oneRF_Modem_v01|CONN HEADER .100" SNGL STR 15POS|Modem|oneRF_Modem_v01|Header 15|1
+15|ONERF_NIC_V05||NIC|ONERF_NIC_V05|ONERF_NIC_V05|1
+16|Header 20X2|Header, 20-Pin, Dual row|P1|HDR2X20|Header 20X2|1
+17|Header 2x2 2.54||P2|HEADER2x2(2.54)|HEADER2x2(2.54)|1
+18|CRCW06031K00FKEA|RES, 1kohm, 1%, 1/10W, 0603|R1, R2, R3, R5, R7, R8, R9, R10, R13, R14, R15, R17, R18, R19, R21, R22, R23, R24, R25, R26, R27, R28|0603|Resistor|22
+19|RC0603FR-071K6L|RES, 1.6kohm, 1%, 1/10W, 0603|R6|0603|Resistor|1
+20|1-1462039-5|RELAY|RELAY|1-1462039-5|1-1462039-5|1
+21|BC817-40|NPN TRANSISTOR|T2|SOT23_N|NPN-TRANSISTOR_SOT23|1
+22|MSP430G2231|MSP430G2X[2/3]1 TSSOP (PW) 14 Pin Package  http://focus.ti.com/docs/prod/folders/print/msp430g2221.html  MSP430G2121, MSP430G2221, MSP430G2131|U$2|PW014_N|G2X[2/3]1---PW14|1
+23|Voltage Regulator||VR1|SOT223|Voltage Regulator|1
