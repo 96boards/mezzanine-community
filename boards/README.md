@@ -17,7 +17,7 @@ long-range and low data rate communication. The board was built for the project 
 ## Pipeline discussion
 
 - **GPS**: Basic GPS module add on, added functionality for mezzanine that would compliment its use (combine Robot mezz and add GPS)
-- [I/O testing Mezzanine](altium/io-testing-mezzanine-v01/): During compliance testing, or general functionality testing it is difficult to efficiently test the IO on both low speed and high speed expansion headers without a variety of tools. A one stop show mezzanine that will output status of all IO would be very nice.
+- [I/O testing Mezzanine](altium/io-testing-mezzanine): During compliance testing, or general functionality testing it is difficult to efficiently test the IO on both low speed and high speed expansion headers without a variety of tools. A one stop show mezzanine that will output status of all IO would be very nice.
 
 ## Ideas
 
