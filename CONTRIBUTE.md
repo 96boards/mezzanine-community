@@ -22,19 +22,27 @@ Please make sure you comply with the following criteria when creating/submitting
 
 ### Contribution
 
- Community contributions are always Welcome! This section is intended to help anyone interested in contributing to this repository. Before contributing, first get the approval from repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/mezzanine-community/issues) using the following guidelines.
-
-- **Use a clear and descriptive title** for the issue to identify the problem/suggestion.
-- **Describe the exact steps to reproduce the problem** in as many details as possible in the case of a problem or suggestion.
-- **Mention location** where was this issue is found / what will your suggestion affect.
+ Community contributions are always Welcome! This section is intended to help anyone interested in contributing to this repository. Before contributing, first get the approval from repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/mezzanine-community/issues) using the guidelines mentioned above.
 
 After getting approval, you will need to do the following(these instructions assume you are a [GitHub user]([GitHub Signup page](https://github.com/join)):
+- ###### Step 1: [Fork this repository](https://help.github.com/articles/fork-a-repo/)
 
-###### Step 1: [Fork this repository](https://help.github.com/articles/fork-a-repo/)
+- ###### Step 2: Make changes, commit and push to your fork
 
-###### Step 2: Make changes, commit and push to your fork
+- ###### Step 3: Submit Pull Request
 
-###### Step 3: Submit Pull Request
+
+#### Make sure you follow the guidelines for submitting a Pull Request:
+- **1: Make sure you sign-off your commit and pull request:** You can add it using the git command ```$ git commit -s .``` or manually add it to your commit and pull request ```Signed-off-by: NAME <committer-email>```
+- **2: Start with a one-line summary (50 characters maximum), followed by a blank line. This format is used by git and Gerrit for various displays.**
+- **3: Starting on the third line, enter a longer description:** This description should focus on what issue the change solves, and how it solves it. The second part is somewhat optional when implementing new features, though desirable.
+- **4: Here is an example commit message:**
+  ```
+  short description on first line
+
+  more detailed description of your patch,
+  which is likely to take up multiple lines.
+  ```
 
 ***
 
