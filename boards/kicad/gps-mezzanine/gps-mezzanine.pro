@@ -1,4 +1,4 @@
-update=Sun 26 Nov 2017 08:52:57 PM CST
+update=Mon 07 May 2018 12:35:10 AM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=96boards
+LibName31=96boards-robomezzi

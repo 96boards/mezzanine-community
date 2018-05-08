@@ -1,0 +1,11 @@
+(module pad (layer F.Cu) (tedit 5AEFF196)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value pad (at 0 2.794) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)
