@@ -15,11 +15,11 @@ Take a look at our [CONTRIBUTE.md](CONTRIBUTE.md) page for more info.
 - Quantized community 96Boards Mezzanine input
 - More boards!
 
-## Meeting notes
+## Meetings and notes
 
 An informal steering committee of community members will allocate resources to a variety or projects, all with a grand scope of meeting the needs of the greater 96Boards community.
 
-- Weekly video conference meetings are open to the public on BlueJeans. Join every Every 2 weeks on Monday at 17:00 UTC to take part in the discussion.
+- Weekly video conference meetings are open to the public on BlueJeans. Join every Every 2 weeks on Monday at 16:00 UTC to take part in the discussion.
    - https://bluejeans.com/6199314558/
 - [View notes](https://github.com/96boards/mezzanine-community/issues?q=is%3Aissue+is%3Aopen+label%3AMeeting) from previous meetings
 
