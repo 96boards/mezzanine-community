@@ -9,7 +9,7 @@ Grid[39.370079 0.0000 0.0000 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[0.1600mm 0.2000mm 0.1600mm 0.2000mm 0.2999mm 0.2000mm]
-Flags("nameonpcb,clearnew")
+Flags("nameonpcb,clearnew,showmask")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,5.0000mm,2.5000mm,10.00mil:Skinny,6.00mil,0.7000mm,11.81mil,0.1600mm"]
 
@@ -876,10 +876,10 @@ Via[36.5000mm 36.1900mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[33.8900mm 48.7800mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0X,5X)"]
 Via[28.5800mm 27.7900mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[25.9700mm 22.3800mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[27.2300mm 24.7800mm 0.7000mm 0.0000 0.0000 11.81mil "" ""]
-Via[28.7800mm 24.7800mm 0.7000mm 0.0000 0.0000 11.81mil "" ""]
-Via[28.7800mm 26.6000mm 0.7000mm 0.0000 0.0000 11.81mil "" ""]
-Via[27.2400mm 26.6000mm 0.7000mm 0.0000 0.0000 11.81mil "" ""]
+Via[27.2300mm 24.7800mm 0.7000mm 0.0000 28.00mil 11.81mil "" ""]
+Via[28.7800mm 24.7800mm 0.7000mm 0.0000 28.00mil 11.81mil "" ""]
+Via[28.7800mm 26.6000mm 0.7000mm 0.0000 28.00mil 11.81mil "" ""]
+Via[27.2400mm 26.6000mm 0.7000mm 0.0000 28.00mil 11.81mil "" ""]
 
 Element["lock" "CE_LS_TH" "J1" "SAMTEC_TMMH-120-01-F" 75.0000mm 50.0000mm 2.8500mm 0.5000mm 3 100 ""]
 (
