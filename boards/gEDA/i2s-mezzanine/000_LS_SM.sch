@@ -7,9 +7,9 @@ device=LS40
 T 44300 46200 5 10 1 1 90 0 1
 refdes=J1
 T 52400 45600 5 10 0 0 90 0 1
-footprint=CE_LS_TH
+footprint=CE_LS_SM
 T 52400 45600 5 10 0 0 0 0 1
-value=SAMTEC TMMH-120-01-F
+value=FCI 57202-G52-20LF
 }
 C 45900 48200 1 90 0 output-1.sym
 {

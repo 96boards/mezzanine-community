@@ -204,6 +204,8 @@ T 46300 48300 5 10 1 1 0 6 1
 refdes=CONN401
 T 45500 47200 5 10 0 0 0 0 1
 footprint=sj-352x
+T 45500 47200 5 10 0 0 0 0 1
+value=CUI SJ-3523-SMT-TR
 }
 C 45500 45000 1 0 0 phone-jack-3p.sym
 {
@@ -213,6 +215,8 @@ T 46300 46100 5 10 1 1 0 6 1
 refdes=CONN402
 T 45500 45000 5 10 0 0 0 0 1
 footprint=sj-352x
+T 45500 45000 5 10 0 0 0 0 1
+value=CUI SJ-3523-SMT-TR
 }
 C 50400 47300 1 0 0 phone-jack-3p.sym
 {
@@ -222,6 +226,8 @@ T 51200 48400 5 10 1 1 0 6 1
 refdes=CONN403
 T 50400 47300 5 10 0 0 0 0 1
 footprint=sj-352x
+T 50400 47300 5 10 0 0 0 0 1
+value=CUI SJ-3523-SMT-TR
 }
 C 50400 45900 1 0 0 phone-jack-3p.sym
 {
@@ -231,6 +237,8 @@ T 51200 47000 5 10 1 1 0 6 1
 refdes=CONN404
 T 50400 45900 5 10 0 0 0 0 1
 footprint=sj-352x
+T 50400 45900 5 10 0 0 0 0 1
+value=CUI SJ-3523-SMT-TR
 }
 C 50400 44500 1 0 0 phone-jack-3p.sym
 {
@@ -240,6 +248,8 @@ T 51200 45600 5 10 1 1 0 6 1
 refdes=CONN405
 T 50400 44500 5 10 0 0 0 0 1
 footprint=sj-352x
+T 50400 44500 5 10 0 0 0 0 1
+value=CUI SJ-3523-SMT-TR
 }
 C 50400 43100 1 0 0 phone-jack-3p.sym
 {
@@ -249,6 +259,8 @@ T 51200 44200 5 10 1 1 0 6 1
 refdes=CONN406
 T 50400 43100 5 10 0 0 0 0 1
 footprint=sj-352x
+T 50400 43100 5 10 0 0 0 0 1
+value=CUI SJ-3523-SMT-TR
 }
 C 45400 47600 1 0 0 gnd-1.sym
 C 45400 45400 1 0 0 gnd-1.sym
