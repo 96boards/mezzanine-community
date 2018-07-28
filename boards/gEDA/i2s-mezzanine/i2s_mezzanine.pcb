@@ -1075,7 +1075,7 @@ Element["onsolder,lock" "CE_HS" "J2" "TE_5179030-2" 63.8500mm 15.4500mm 5.6000mm
 
 	)
 
-Element["" "sj-4351x" "CONN501" "CUI_SJ-43514-SMT-TR" 20.9500mm 4.7500mm -3.2000mm 0.7000mm 3 100 ""]
+Element["" "sj-4351x" "CONN501" "CUI_SJ-43514-SMT-TR" 20.9500mm 4.5000mm -3.2000mm 0.7000mm 3 100 ""]
 (
 	Pin[0.0000 7.0000mm 1.6016mm 20.00mil 1.7540mm 1.5000mm "" "1" "hole"]
 	Pin[0.0000 0.0000 1.6016mm 20.00mil 1.7540mm 1.5000mm "" "2" "hole"]
@@ -1083,7 +1083,7 @@ Element["" "sj-4351x" "CONN501" "CUI_SJ-43514-SMT-TR" 20.9500mm 4.7500mm -3.2000
 	Pad[-3.9500mm 8.3000mm -3.9500mm 8.3000mm 2.8000mm 0.3200mm 2.8580mm "" "2" "square"]
 	Pad[3.9000mm 0.8000mm 4.0000mm 0.8000mm 2.2000mm 20.00mil 2.2580mm "" "3" "square,edge2"]
 	Pad[3.8000mm -2.0000mm 4.1000mm -2.0000mm 2.0000mm 20.00mil 2.0580mm "" "6" "square,edge2"]
-	Pad[-4.3000mm -3.7000mm -3.6000mm -3.7000mm 1.6000mm 20.00mil 1.6580mm "" "1" "square"]
+	Pad[-4.3000mm -3.7000mm -3.6000mm -3.7000mm 1.6000mm 0.4724mm 1.6580mm "" "1" "square"]
 	Pad[-4.0000mm -1.1000mm -3.9000mm -1.1000mm 2.2000mm 20.00mil 2.2580mm "" "4" "square"]
 	ElementLine [3.0000mm -4.3750mm 3.0000mm -3.1250mm 0.2500mm]
 	ElementLine [3.0000mm 2.0250mm 3.0000mm 11.0000mm 0.2500mm]
