@@ -1,0 +1,76 @@
+I2S Mezzanine
+-------------
+
+Description:
+------------
+This is a FULLY STACKABLE sound card for 96Boards Consumer Edition SBCs.
+
+Output:
+-------
+There are two stereo DACs on the board. Both are TI PCM5142 with programmable miniDSP.
+U302 is the "front" channel, which can be controlled over I2C1 at address 0x4C.
+U302 Line Out is routed to CONN401.
+U302 is also routed to headphone amplifier TI TPA6110A2 at U501 and output at CONN501.
+U501 power is controlled by insertion/removal of 3-conductor stereo headset.
+U303 is the "rear" channel, which can be controlled over I2C1 at address 0x4D.
+U302 Line Out is routed to CONN402.
+
+Input:
+------
+The board is equipped with a 4-channel ADC, TI PCM1865 at U301.
+U301 can be controlled over I2C1 at address 0x4A.
+Pair 1 input is microphone biased to CONN403.
+Pair 2 input is line level CONN404.
+Pair 3 input is line level CONN405.
+Pair 4 input is line level CONN406.
+
+Power:
+------
+All audio ICs on the board require a 3.3v analog power supply, which is provided by
+L4931 at U101. The state of U101 is controlled by Q101 which has its base attached to J101
+pin 2. Place a jumper on pins 1-2 of J101 for power state of U101 to be controlled by GPIO-K,
+Place a jumper on pins 2-3 of J101 for U101 to remain always powered (if GPIO-K is required
+for another purpose).
+
+Audio Routing:
+--------------
+The PCM1865 has 1 I2S input and 2 I2S outputs. Its input (GPIO1) and one of its 2
+outputs (second output, GPIO0) are connected to the I2S port of the SBC's low speed connector.
+Its primary output is routed to the inputs of both PCM5142's.
+
+The PCM1865 is able to produce a total of 4 output audio channels. These can be 2 stereo outputs
+routed each to one of the I2S outputs, or it can be 4 channel TDM, routed to one or the other
+output, or both (in which case they are carrying the same data). Each of the 4 output channels
+is a mixture of *any* combination of the 10 input channels (8 analog, 2 digital).
+
+The PCM5142s can play either the same input data, with, for example, varying volume, or
+different DSP programs (for example, normal/sub), or in TDM mode, one can play the first two
+channels, and the other can play the second two channels.
+
+Construction Options:
+---------------------
+If stacking of high speed connector is not required, do not install J2 or J3.
+If stacking of low speed connector is not required, do not install J4.
+If 4 channel output is not required, do not install;
+	U303, C318-C324, R403, R409, CONN402.
+If headphone amplifier is not required, do not install any component numbered 5xx.
+If PCM1865 is not required to operate as CLOCK MASTER, do not install;
+	U304, C332, C333.
+To reduce number of Line In ports by 1, do not install;
+	CONN406, C314, C315, R305, R306.
+To reduce number of Line In ports by 2, also do not install;
+	CONN405, C312, C313, R307, R308.
+To reduce number of Line In ports by 3, also do not install;
+	CONN404, C316, C317, R309, R310.
+
+Known Limitations:
+------------------
+96Boards Consumer Editions specifications make I2S input *optional*. As a result, some boards
+may not be equipped to receive I2S input. One such board is Dragonboard 410C, which has its
+PCM-DI (pin 22) listed as NOT CONNECTED. In some cases, it may be possible to recover that
+capability, if that pin happens to be routed elsewhere on the low speed connector. This
+is the case for Dragonboard 410C, which happens to have the pin that otherwise would have
+been connected there routed to GPIO-E (pin 27). In order to recover I2S input capability on
+Dragonboard 410C, attach a jumper from pin 27 to pin 22 of the low speed header. However,
+note that further work will be required in the kernel to activate this pin in I2S mode.
+
