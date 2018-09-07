@@ -7,12 +7,14 @@
 
 ## Done
 
+- [Proto Mezzanine](kicad/proto-mezzanine): This is a simple prototyping mezzanine that breaks out the low-speed header and provides a breadboard shaped prototyping area.
 - [IoT-6lowPan-gateway-v01](altium/iot-6lowpan-gateway-v01/): Interface board to a sub-1GHz 6LoWPAN radio module based on TI CC1310 and a 3G modem based on Telit HE910-EUD. The idea is to bring WSN (Wireless Sensor Network) connectivity to DragonBoard 410c for applications that need low-cost,
 long-range and low data rate communication. The board was built for the project [ReSeNI](https://github.com/oneRF/ReSeNI) as part of the [Brazilian partnership program](https://www.96boards.org/go/db410c-partnership-brazil).
 
 - [Breadboarding/Breakout](kicad/proto-mezzanine/): Basic breadboard breakout board. This could be a board that sits on top of 96Boards and breaks out the headers onto a small breadboard, or a ribbon cable to a breakout that plugs into a breadboard (similar to what would be available in the RPi Cana kit) This breadboard would be a huge asset to makers or kit builders.
 
 - [Micro-Mezzanine](others/micromez): A basic board consisting of a Temperature Sensor, MEMS Accelerometer, Button and OLED Display.
+- [I2S Mezzanine](gEDA/i2s-mezzanine): This is a FULLY STACKABLE sound card for 96Boards Consumer Edition SBCs. There are two stereo DACs on the board. 2x Output: TI PCM5142 with programmable miniDSP. 2x Input: TI PCM1865 at U301.
 
 ## Testing needed
 
@@ -30,3 +32,4 @@ long-range and low data rate communication. The board was built for the project 
 - **HiFi DAC, Standard i2s mezzanine**: Bring out board audio from the I2S pins
 - **Robot mezzanine**: Robotics mezzanine that caters most specifically to motors(DC, Servo and stepper motors, PWM)
 - **802.15.4 (e.g 6LoWPAN)**: TI part that could be used (already compatible with both Linux and Zephyr): CC2520
+- **LVDS to DSI Display Mezzanine**: A display mezzanine uses LVDS to DSI converter to attach LVDS Displays to 96Boards CE Spec.
