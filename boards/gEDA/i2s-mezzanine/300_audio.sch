@@ -890,7 +890,7 @@ refdes=C333
 T 39400 43500 5 10 0 0 0 0 1
 footprint=0805
 T 39200 43700 5 10 1 1 90 0 1
-value=12 pF
+value=22 pF
 T 39400 43500 5 10 0 0 0 0 1
 device=CAPACITOR
 }
@@ -901,7 +901,7 @@ refdes=C332
 T 40200 43500 5 10 0 0 0 0 1
 footprint=0805
 T 40000 43700 5 10 1 1 90 0 1
-value=12 pF
+value=22 pF
 T 40200 43500 5 10 0 0 0 0 1
 device=CAPACITOR
 }
