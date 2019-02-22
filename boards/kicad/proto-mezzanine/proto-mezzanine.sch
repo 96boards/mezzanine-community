@@ -1,51 +1,21 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:96boards
+EESchema Schematic File Version 4
 LIBS:proto-mezzanine-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "PROTO MEZZANINE V1.3"
-Date "14 Aug 2015"
+Title "PROTO MEZZANINE V1.4"
+Date "2019-02-21"
 Rev "A"
 Comp "Barry Byford"
 Comment1 "Converted to KiCAD by Michael Welling"
-Comment2 ""
+Comment2 "V1.4 by Sahaj Sarup"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 55BEAA68
 P 4050 2500
 F 0 "#PWR07" H 4050 2250 50  0001 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 4050 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 55BEA10A
 P 4100 4550
 F 0 "#PWR08" H 4100 4300 50  0001 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 4100 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 55BEA0BC
 P 4800 4550
 F 0 "#PWR09" H 4800 4300 50  0001 C CNN
@@ -80,7 +50,7 @@ $EndComp
 Text GLabel 4800 4450 2    60   Input ~ 0
 SYS_DCIN
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 55D43BD4
 P 4850 2500
 F 0 "#PWR010" H 4850 2250 50  0001 C CNN
@@ -91,7 +61,7 @@ F 3 "" H 4850 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X20 P1
+L 96boards:CONN_02X20 P1
 U 1 1 55D44709
 P 4450 3600
 F 0 "P1" H 4450 4650 50  0000 C CNN
@@ -104,7 +74,7 @@ F 5 "P220-1220A0xMxxxx2" H 4450 3600 60  0001 C CNN "Mfr Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR011
+L power:+1V8 #PWR011
 U 1 1 55D43CFB
 P 3550 4300
 F 0 "#PWR011" H 3550 4150 50  0001 C CNN
@@ -115,7 +85,7 @@ F 3 "" H 3550 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR012
+L power:+5V #PWR012
 U 1 1 55D440FD
 P 3350 4300
 F 0 "#PWR012" H 3350 4150 50  0001 C CNN
@@ -251,7 +221,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4350 4750 4350
 Wire Wire Line
-	4700 4450 4800 4450
+	4700 4450 4750 4450
 Wire Wire Line
 	4050 2450 4050 2500
 Wire Wire Line
@@ -285,7 +255,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3050 4050 3050
 $Comp
-L CONN_01X04 J1
+L proto-mezzanine-rescue:CONN_01X04 J1
 U 1 1 5987B130
 P 7450 2750
 F 0 "J1" H 7528 2791 50  0000 L CNN
@@ -296,7 +266,7 @@ F 3 "" H 7450 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 J2
+L proto-mezzanine-rescue:CONN_01X04 J2
 U 1 1 5987B1FD
 P 7450 3250
 F 0 "J2" H 7528 3291 50  0000 L CNN
@@ -307,7 +277,7 @@ F 3 "" H 7450 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 J3
+L proto-mezzanine-rescue:CONN_01X02 J3
 U 1 1 5987B24F
 P 7450 3650
 F 0 "J3" H 7528 3691 50  0000 L CNN
@@ -382,7 +352,7 @@ GPIO_K
 Text GLabel 6950 5000 0    60   Input ~ 0
 GPIO_L
 $Comp
-L CONN_01X12 J4
+L proto-mezzanine-rescue:CONN_01X12 J4
 U 1 1 5987B843
 P 7450 4450
 F 0 "J4" H 7528 4491 50  0000 L CNN
@@ -426,4 +396,6 @@ Wire Notes Line
 	6900 5900 4600 5900
 Wire Notes Line
 	4600 5900 4600 5500
+Wire Wire Line
+	4750 4450 4800 4450
 $EndSCHEMATC
