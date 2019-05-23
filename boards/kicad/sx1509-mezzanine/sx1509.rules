@@ -1,0 +1,100 @@
+
+(rules PCB sx1509
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2661)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 150.0)
+    (clear 170.2)
+    (clear 75.0 (type smd_to_turn_gap))
+    (clear 42.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_500:300_um"
+    (shape
+      (circle F.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 500.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_500:300_um" "Via[0-1]_500:300_um" default
+  )
+  (via 
+    "Via[0-1]_500:300_um-kicad_default" "Via[0-1]_500:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_500:300_um-Power" "Via[0-1]_500:300_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_500:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_500:300_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_500:300_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "I2C0_SCL" "I2C0_SDA" "I2C1_SCL" "I2C1_SDA" "PWR_BTN_N" "RST_BTN_N" "SYS_DCIN" "GPIO_B"
+    "GPIO_A" "SPIO_SCL" "SPIO_DIN" "SPIO_CS" "SPIO_DOUT" "PCM_FS" "PCM_CLK" "PCM_DO"
+    "PCM_DI" "GPIO_D" "GPIO_F" "GPIO_H" "GPIO_J" "GPIO_L" "UART1_TX" "UART1_RX"
+    "GPIO_C" "GPIO_E" "GPIO_G" "GPIO_I" "GPIO_K" "UART0_CTS" "UART0_TX" "UART0_RX"
+    "UART0_RTS" "IO_7" "IO_6" "IO_5" "IO_4" "IO_3" "IO_2" "IO_1"
+    "IO_0" "IO_15" "IO_14" "IO_13" "IO_12" "IO_11" "IO_10" "IO_9"
+    "IO_8" VCC1 VCC2 ADDR0 "Net-(JP1-Pad2)" "Net-(JP2-Pad2)" ADDR1 "Net-(R1-Pad1)"
+    "Net-(R2-Pad1)" "Net-(EXT_CLK1-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    GND +1V8 +5V
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
