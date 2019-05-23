@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:sx1509-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -579,37 +579,37 @@ Text GLabel 7500 2850 2    60   Input ~ 0
 IO_14
 Text GLabel 7500 2950 2    60   Input ~ 0
 IO_15
-Text GLabel 9350 1100 2    60   Input ~ 0
+Text GLabel 9400 1800 2    60   Input ~ 0
 IO_0
-Text GLabel 9350 1200 2    60   Input ~ 0
+Text GLabel 9400 1700 2    60   Input ~ 0
 IO_1
-Text GLabel 9350 1300 2    60   Input ~ 0
+Text GLabel 9400 1600 2    60   Input ~ 0
 IO_2
-Text GLabel 9350 1400 2    60   Input ~ 0
+Text GLabel 9400 1500 2    60   Input ~ 0
 IO_3
-Text GLabel 9350 1500 2    60   Input ~ 0
+Text GLabel 9400 1400 2    60   Input ~ 0
 IO_4
-Text GLabel 9350 1600 2    60   Input ~ 0
+Text GLabel 9400 1300 2    60   Input ~ 0
 IO_5
-Text GLabel 9350 1700 2    60   Input ~ 0
+Text GLabel 9400 1200 2    60   Input ~ 0
 IO_6
-Text GLabel 9350 1800 2    60   Input ~ 0
+Text GLabel 9400 1100 2    60   Input ~ 0
 IO_7
-Text GLabel 8650 2200 0    60   Input ~ 0
+Text GLabel 8700 2900 0    60   Input ~ 0
 IO_8
-Text GLabel 8650 2300 0    60   Input ~ 0
+Text GLabel 8700 2800 0    60   Input ~ 0
 IO_9
-Text GLabel 8650 2400 0    60   Input ~ 0
+Text GLabel 8700 2700 0    60   Input ~ 0
 IO_10
-Text GLabel 8650 2500 0    60   Input ~ 0
+Text GLabel 8700 2600 0    60   Input ~ 0
 IO_11
-Text GLabel 8650 2600 0    60   Input ~ 0
+Text GLabel 8700 2500 0    60   Input ~ 0
 IO_12
-Text GLabel 8650 2700 0    60   Input ~ 0
+Text GLabel 8700 2400 0    60   Input ~ 0
 IO_13
-Text GLabel 8650 2800 0    60   Input ~ 0
+Text GLabel 8700 2300 0    60   Input ~ 0
 IO_14
-Text GLabel 8650 2900 0    60   Input ~ 0
+Text GLabel 8700 2200 0    60   Input ~ 0
 IO_15
 Wire Wire Line
 	7500 1250 7400 1250
@@ -939,8 +939,8 @@ $Comp
 L Device:R R5
 U 1 1 5C81D9F5
 P 5100 5350
-F 0 "R5" V 4893 5350 50  0000 C CNN
-F 1 "10K" V 4984 5350 50  0000 C CNN
+F 0 "R5" V 5000 5350 50  0000 C CNN
+F 1 "10K" V 5100 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 5030 5350 50  0001 C CNN
 F 3 "~" H 5100 5350 50  0001 C CNN
 	1    5100 5350
@@ -950,8 +950,8 @@ $Comp
 L Device:R R6
 U 1 1 5C827A9C
 P 5100 5450
-F 0 "R6" V 4893 5450 50  0000 C CNN
-F 1 "10K" V 4984 5450 50  0000 C CNN
+F 0 "R6" V 5200 5450 50  0000 C CNN
+F 1 "10K" V 5100 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 5030 5450 50  0001 C CNN
 F 3 "~" H 5100 5450 50  0001 C CNN
 	1    5100 5450
@@ -993,63 +993,63 @@ $EndComp
 Wire Wire Line
 	5950 2450 6400 2450
 Wire Wire Line
-	9350 1100 9250 1100
+	9400 1100 9300 1100
 Wire Wire Line
-	9250 1200 9350 1200
+	9300 1200 9400 1200
 Wire Wire Line
-	9350 1300 9250 1300
+	9400 1300 9300 1300
 Wire Wire Line
-	9250 1400 9350 1400
+	9300 1400 9400 1400
 Wire Wire Line
-	9350 1500 9250 1500
+	9400 1500 9300 1500
 Wire Wire Line
-	9250 1600 9350 1600
+	9300 1600 9400 1600
 Wire Wire Line
-	9250 1700 9350 1700
+	9300 1700 9400 1700
 Wire Wire Line
-	9250 1800 9350 1800
+	9300 1800 9400 1800
 Wire Wire Line
-	8750 2900 8650 2900
+	8800 2900 8700 2900
 Wire Wire Line
-	8750 2800 8650 2800
+	8800 2800 8700 2800
 Wire Wire Line
-	8750 2700 8650 2700
+	8800 2700 8700 2700
 Wire Wire Line
-	8750 2600 8650 2600
+	8800 2600 8700 2600
 Wire Wire Line
-	8750 2500 8650 2500
+	8800 2500 8700 2500
 Wire Wire Line
-	8750 2400 8650 2400
+	8800 2400 8700 2400
 Wire Wire Line
-	8750 2300 8650 2300
+	8800 2300 8700 2300
 Wire Wire Line
-	8750 2200 8650 2200
+	8800 2200 8700 2200
 $Comp
 L power:GND #PWR0112
 U 1 1 5C80488A
-P 8650 1800
-F 0 "#PWR0112" H 8650 1550 50  0001 C CNN
-F 1 "GND" H 8655 1627 50  0000 C CNN
-F 2 "" H 8650 1800 50  0001 C CNN
-F 3 "" H 8650 1800 50  0001 C CNN
-	1    8650 1800
+P 8700 1800
+F 0 "#PWR0112" H 8700 1550 50  0001 C CNN
+F 1 "GND" H 8705 1627 50  0000 C CNN
+F 2 "" H 8700 1800 50  0001 C CNN
+F 3 "" H 8700 1800 50  0001 C CNN
+	1    8700 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 1800 8750 1800
+	8700 1800 8800 1800
 $Comp
 L power:GND #PWR0113
 U 1 1 5C897F94
-P 9400 2900
-F 0 "#PWR0113" H 9400 2650 50  0001 C CNN
-F 1 "GND" H 9405 2727 50  0000 C CNN
-F 2 "" H 9400 2900 50  0001 C CNN
-F 3 "" H 9400 2900 50  0001 C CNN
-	1    9400 2900
+P 9450 2900
+F 0 "#PWR0113" H 9450 2650 50  0001 C CNN
+F 1 "GND" H 9455 2727 50  0000 C CNN
+F 2 "" H 9450 2900 50  0001 C CNN
+F 3 "" H 9450 2900 50  0001 C CNN
+	1    9450 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 2900 9400 2900
+	9300 2900 9450 2900
 Wire Wire Line
 	2150 5550 2150 5450
 Wire Wire Line
@@ -1066,65 +1066,65 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J1
 U 1 1 5C7E8971
-P 8950 1400
-F 0 "J1" H 9000 1917 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 9000 1826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal" H 8950 1400 50  0001 C CNN
-F 3 "~" H 8950 1400 50  0001 C CNN
-	1    8950 1400
+P 9000 1400
+F 0 "J1" H 9050 1917 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9050 1826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal" H 9000 1400 50  0001 C CNN
+F 3 "~" H 9000 1400 50  0001 C CNN
+	1    9000 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J2
 U 1 1 5C7E8A64
-P 8950 2500
-F 0 "J2" H 9000 3017 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 9000 2926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal" H 8950 2500 50  0001 C CNN
-F 3 "~" H 8950 2500 50  0001 C CNN
-	1    8950 2500
+P 9000 2500
+F 0 "J2" H 9050 3017 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9050 2926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal" H 9000 2500 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 1700 8750 1800
-Connection ~ 8750 1800
+	8800 1700 8800 1800
+Connection ~ 8800 1800
 Wire Wire Line
-	9250 2800 9250 2900
-Connection ~ 9250 2900
+	9300 2800 9300 2900
+Connection ~ 9300 2900
 Wire Wire Line
-	8750 1700 8750 1600
-Connection ~ 8750 1700
-Connection ~ 8750 1200
+	8800 1700 8800 1600
+Connection ~ 8800 1700
+Connection ~ 8800 1200
 Wire Wire Line
-	8750 1200 8750 1100
-Connection ~ 8750 1300
+	8800 1200 8800 1100
+Connection ~ 8800 1300
 Wire Wire Line
-	8750 1300 8750 1200
-Connection ~ 8750 1400
+	8800 1300 8800 1200
+Connection ~ 8800 1400
 Wire Wire Line
-	8750 1400 8750 1300
-Connection ~ 8750 1500
+	8800 1400 8800 1300
+Connection ~ 8800 1500
 Wire Wire Line
-	8750 1500 8750 1400
-Connection ~ 8750 1600
+	8800 1500 8800 1400
+Connection ~ 8800 1600
 Wire Wire Line
-	8750 1600 8750 1500
+	8800 1600 8800 1500
 Wire Wire Line
-	9250 2200 9250 2300
-Connection ~ 9250 2800
-Connection ~ 9250 2300
+	9300 2200 9300 2300
+Connection ~ 9300 2800
+Connection ~ 9300 2300
 Wire Wire Line
-	9250 2300 9250 2400
-Connection ~ 9250 2400
+	9300 2300 9300 2400
+Connection ~ 9300 2400
 Wire Wire Line
-	9250 2400 9250 2500
-Connection ~ 9250 2500
+	9300 2400 9300 2500
+Connection ~ 9300 2500
 Wire Wire Line
-	9250 2500 9250 2600
-Connection ~ 9250 2600
+	9300 2500 9300 2600
+Connection ~ 9300 2600
 Wire Wire Line
-	9250 2600 9250 2700
-Connection ~ 9250 2700
+	9300 2600 9300 2700
+Connection ~ 9300 2700
 Wire Wire Line
-	9250 2700 9250 2800
+	9300 2700 9300 2800
 $EndSCHEMATC

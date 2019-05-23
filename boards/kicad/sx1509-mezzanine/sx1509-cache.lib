@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 96boards_CONN_02X20
+# 96boards:CONN_02X20
 #
-DEF 96boards_CONN_02X20 P 0 1 Y N 1 F N
+DEF 96boards:CONN_02X20 P 0 1 Y N 1 F N
 F0 "P" 0 1050 50 H V C CNN
-F1 "96boards_CONN_02X20" 0 0 50 V V C CNN
+F1 "96boards:CONN_02X20" 0 0 50 V V C CNN
 F2 "" 0 -950 60 H V C CNN
 F3 "" 0 -950 60 H V C CNN
 $FPLIST
@@ -99,11 +99,11 @@ X P9 9 -250 550 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x02_Male
+# Connector:Conn_01x02_Male
 #
-DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x02_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F1 "Connector:Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -119,11 +119,28 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x08_Odd_Even
+# Connector:TestPoint
 #
-DEF Connector_Generic_Conn_02x08_Odd_Even J 0 40 Y N 1 F N
+DEF Connector:TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector:TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic:Conn_02x08_Odd_Even
+#
+DEF Connector_Generic:Conn_02x08_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic_Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
+F1 "Connector_Generic:Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -166,28 +183,11 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_TestPoint
+# Device:CP
 #
-DEF Connector_TestPoint TP 0 30 N N 1 F N
-F0 "TP" 0 270 50 H V C CNN
-F1 "Connector_TestPoint" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_CP
-#
-DEF Device_CP C 0 10 N Y 1 F N
+DEF Device:CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_CP" 25 -100 50 H V L CNN
+F1 "Device:CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -203,11 +203,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Jumper_NC_Dual
+# Device:Jumper_NC_Dual
 #
-DEF Device_Jumper_NC_Dual JP 0 30 Y N 1 F N
+DEF Device:Jumper_NC_Dual JP 0 30 Y N 1 F N
 F0 "JP" 50 -100 50 H V L CNN
-F1 "Device_Jumper_NC_Dual" 0 100 50 H V C BNN
+F1 "Device:Jumper_NC_Dual" 0 100 50 H V C BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -225,11 +225,11 @@ X 3 3 250 0 95 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# Device:R
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -242,11 +242,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+1V8
+# power:+1V8
 #
-DEF power_+1V8 #PWR 0 0 Y Y 1 F P
+DEF power:+1V8 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+1V8" 0 140 50 H V C CNN
+F1 "power:+1V8" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -257,11 +257,11 @@ X +1V8 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# power:+5V
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
+DEF power:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -272,11 +272,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -285,11 +285,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# sx1509_SX1509
+# sx1509:SX1509
 #
-DEF sx1509_SX1509 U 0 40 Y Y 1 L N
+DEF sx1509:SX1509 U 0 40 Y Y 1 L N
 F0 "U" -400 1010 50 H V L BNN
-F1 "sx1509_SX1509" -400 -1080 50 H V L BNN
+F1 "sx1509:SX1509" -400 -1080 50 H V L BNN
 F2 "QFN-28" 30 150 20 H I C CNN
 F3 "" 0 0 60 H I C CNN
 $FPLIST
