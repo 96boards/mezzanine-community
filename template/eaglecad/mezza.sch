@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -243,96 +244,56 @@ DIN A4, landscape with location and doc. field</description>
 <description>Generated from &lt;b&gt;mezza.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="55510-140LF">
-<wire x1="-20" y1="2" x2="-20" y2="-2" width="0.127" layer="20"/>
-<wire x1="20" y1="2" x2="20" y2="-2" width="0.127" layer="20"/>
-<wire x1="-20" y1="2" x2="-19.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-20" y1="-2" x2="-19.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="20" y1="2" x2="19.6" y2="2" width="0.127" layer="20"/>
-<wire x1="20" y1="-2" x2="19.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-18.4" y1="2" x2="-17.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-18.4" y1="-2" x2="-17.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-16.4" y1="2" x2="-15.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-14.4" y1="2" x2="-13.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-12.4" y1="2" x2="-11.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-16.4" y1="-2" x2="-15.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-14.4" y1="-2" x2="-13.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-10.4" y1="2" x2="-9.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-8.4" y1="2" x2="-7.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-6.4" y1="2" x2="-5.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-4.4" y1="2" x2="-3.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-2.4" y1="2" x2="-1.6" y2="2" width="0.127" layer="20"/>
-<wire x1="-0.4" y1="2" x2="0.4" y2="2" width="0.127" layer="20"/>
-<wire x1="1.6" y1="2" x2="2.4" y2="2" width="0.127" layer="20"/>
-<wire x1="3.6" y1="2" x2="4.4" y2="2" width="0.127" layer="20"/>
-<wire x1="5.6" y1="2" x2="6.4" y2="2" width="0.127" layer="20"/>
-<wire x1="7.6" y1="2" x2="8.4" y2="2" width="0.127" layer="20"/>
-<wire x1="9.6" y1="2" x2="10.4" y2="2" width="0.127" layer="20"/>
-<wire x1="11.6" y1="2" x2="12.4" y2="2" width="0.127" layer="20"/>
-<wire x1="13.6" y1="2" x2="14.4" y2="2" width="0.127" layer="20"/>
-<wire x1="15.6" y1="2" x2="16.4" y2="2" width="0.127" layer="20"/>
-<wire x1="17.6" y1="2" x2="18.4" y2="2" width="0.127" layer="20"/>
-<wire x1="-12.4" y1="-2" x2="-11.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-10.4" y1="-2" x2="-9.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-8.4" y1="-2" x2="-7.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-6.4" y1="-2" x2="-5.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-4.4" y1="-2" x2="-3.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-2.4" y1="-2" x2="-1.6" y2="-2" width="0.127" layer="20"/>
-<wire x1="-0.4" y1="-2" x2="0.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="1.6" y1="-2" x2="2.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="3.6" y1="-2" x2="4.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="5.6" y1="-2" x2="6.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="7.6" y1="-2" x2="8.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="9.6" y1="-2" x2="10.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="11.6" y1="-2" x2="12.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="13.6" y1="-2" x2="14.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="15.6" y1="-2" x2="16.4" y2="-2" width="0.127" layer="20"/>
-<wire x1="17.6" y1="-2" x2="18.4" y2="-2" width="0.127" layer="20"/>
-<smd name="P$1" x="-19" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$2" x="-19" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$3" x="-17" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$4" x="-17" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$5" x="-15" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$6" x="-15" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$7" x="-13" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$8" x="-13" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$9" x="-11" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$10" x="-11" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$11" x="-9" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$12" x="-9" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$13" x="-7" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$14" x="-7" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$15" x="-5" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$16" x="-5" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$17" x="-3" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$18" x="-3" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$19" x="-1" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$20" x="-1" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$21" x="1" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$22" x="1" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$23" x="3" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$24" x="3" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$25" x="5" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$26" x="5" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$27" x="7" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$28" x="7" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$29" x="9" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$30" x="9" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$31" x="11" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$32" x="11" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$33" x="13" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$34" x="13" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$35" x="15" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$36" x="15" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$37" x="17" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$38" x="17" y="-2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$39" x="19" y="2.5" dx="1" dy="1.5" layer="1"/>
-<smd name="P$40" x="19" y="-2.5" dx="1" dy="1.5" layer="1"/>
+<package name="57202-G52-20LF">
+<smd name="P$1" x="-19" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$2" x="-19" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$3" x="-17" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$4" x="-17" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$5" x="-15" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$6" x="-15" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$7" x="-13" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$8" x="-13" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$9" x="-11" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$10" x="-11" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$11" x="-9" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$12" x="-9" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$13" x="-7" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$14" x="-7" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$15" x="-5" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$16" x="-5" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$17" x="-3" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$18" x="-3" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$19" x="-1" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$20" x="-1" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$21" x="1" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$22" x="1" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$23" x="3" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$24" x="3" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$25" x="5" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$26" x="5" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$27" x="7" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$28" x="7" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$29" x="9" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$30" x="9" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$31" x="11" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$32" x="11" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$33" x="13" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$34" x="13" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$35" x="15" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$36" x="15" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$37" x="17" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$38" x="17" y="-2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$39" x="19" y="2" dx="1" dy="2.5" layer="1"/>
+<smd name="P$40" x="19" y="-2" dx="1" dy="2.5" layer="1"/>
 <text x="-21.5" y="2" size="1.27" layer="21">1</text>
 <text x="-21.5" y="-3" size="1.27" layer="21">2</text>
 <text x="20.5" y="-3" size="1.27" layer="21">40</text>
 <text x="20.5" y="2" size="1.27" layer="21">39</text>
 <text x="24.13" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<wire x1="-19.939" y1="2.032" x2="-19.939" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="-19.939" y1="-2.032" x2="19.939" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="19.939" y1="-2.032" x2="19.939" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="19.939" y1="2.032" x2="-19.939" y2="2.032" width="0.1524" layer="21"/>
 </package>
 <package name="61083-063402LF">
 <wire x1="-12" y1="3" x2="-15" y2="3" width="0.127" layer="21"/>
@@ -436,7 +397,7 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 <symbols>
-<symbol name="40PIN-HEADER">
+<symbol name="40PIN-HEADER_MALE">
 <wire x1="-7.62" y1="27.94" x2="7.62" y2="27.94" width="0.254" layer="94"/>
 <wire x1="7.62" y1="27.94" x2="7.62" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-25.4" x2="-7.62" y2="-25.4" width="0.254" layer="94"/>
@@ -566,21 +527,12 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="55510-140LF" prefix="J">
-<description>&lt;h1&gt; 55510-140LF &lt;/h1&gt;
-   
-&lt;p&gt; &lt;b&gt;MANUFACTURER&lt;/b&gt; : Amphenol FCI &lt;/p&gt;
-
-&lt;p&gt; &lt;b&gt;DESCRIPTION&lt;/b&gt; Conn Socket Strip SKT 40 POS 2mm Solder ST SMD Tube &lt;/p&gt;
-
-&lt;p&gt; &lt;b&gt;Note&lt;/b&gt;: DragonBoard 410c LS Connector &lt;/p&gt;
-
-&lt;p&gt; Think of FCI's socket strip &lt;b&gt;55510-140LF&lt;/b&gt; header connector the next time you're concerned about accidentally shorting out pins on your printed circuit. This SKT connector's 40 contacts that are made out of phosphor bronze and plated with gold over nickel. It has a socket type gender. It has a straight body orientation. Its pitch is 2 mm. This is a 2-row connector. It has a maximum voltage rating of 200 VDC|200VAC. This device has a maximum current rating of 1 A/contact. In order to ensure parts aren't damaged by bulk packaging, this product comes in tube packaging to add a little more protection by storing the loose parts in an outer tube. This connector has an operating temperature of -55 to 125 °C. This product is 39.92 mm long, 4.5 mm tall and 4 mm deep. 55510-140LF is housed in black plastic. It uses the solder termination method.&lt;/p&gt;</description>
+<deviceset name="57202-G52-20LF">
 <gates>
-<gate name="G$1" symbol="40PIN-HEADER" x="0" y="17.78"/>
+<gate name="G$1" symbol="40PIN-HEADER_MALE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="55510-140LF">
+<device name="" package="57202-G52-20LF">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$10" pad="P$10"/>
@@ -747,7 +699,7 @@ by exp-lbrs.ulp</description>
 </classes>
 <parts>
 <part name="PCB1" library="mezza" deviceset="DB410C-PCB-FOOTPRINT" device=""/>
-<part name="J1" library="mezza" deviceset="55510-140LF" device=""/>
+<part name="J1" library="mezza" deviceset="57202-G52-20LF" device=""/>
 <part name="J2" library="mezza" deviceset="61083-063402LF" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
@@ -774,19 +726,40 @@ Use the component reference center to align the connectors, then delete J1.</tex
 <attribute name="NAME" x="66.04" y="86.36" size="2.54" layer="95"/>
 <attribute name="VALUE" x="55.88" y="0" size="2.54" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="GND" x="48.26" y="-5.08"/>
-<instance part="SUPPLY8" gate="GND" x="88.9" y="-5.08"/>
+<instance part="SUPPLY7" gate="GND" x="48.26" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="46.355" y="-8.255" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="GND" x="88.9" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="86.995" y="-8.255" size="1.778" layer="96"/>
+</instance>
 <instance part="J1" gate="G$1" x="-66.04" y="48.26" smashed="yes">
 <attribute name="NAME" x="-68.58" y="78.74" size="2.54" layer="95"/>
 <attribute name="VALUE" x="-76.2" y="17.78" size="2.54" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="-83.82" y="81.28" rot="R180"/>
-<instance part="SUPPLY3" gate="GND" x="-83.82" y="12.7"/>
-<instance part="SUPPLY5" gate="GND" x="-48.26" y="81.28" rot="R180"/>
-<instance part="SUPPLY6" gate="GND" x="-48.26" y="12.7"/>
-<instance part="PCB1" gate="G$1" x="-63.5" y="-27.94"/>
-<instance part="SUPPLY1" gate="GND" x="-76.2" y="-48.26"/>
-<instance part="FRAME3" gate="G$1" x="-129.54" y="-68.58"/>
+<instance part="SUPPLY2" gate="GND" x="-83.82" y="81.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-81.915" y="84.455" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="-83.82" y="12.7" smashed="yes">
+<attribute name="VALUE" x="-85.725" y="9.525" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="-48.26" y="81.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-46.355" y="84.455" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="-48.26" y="12.7" smashed="yes">
+<attribute name="VALUE" x="-50.165" y="9.525" size="1.778" layer="96"/>
+</instance>
+<instance part="PCB1" gate="G$1" x="-63.5" y="-27.94" smashed="yes">
+<attribute name="VALUE" x="-78.74" y="-22.86" size="1.27" layer="96"/>
+<attribute name="NAME" x="-78.74" y="-25.4" size="1.27" layer="95"/>
+</instance>
+<instance part="SUPPLY1" gate="GND" x="-76.2" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="-78.105" y="-51.435" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME3" gate="G$1" x="-129.54" y="-68.58" smashed="yes">
+<attribute name="DRAWING_NAME" x="87.63" y="-53.34" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="87.63" y="-58.42" size="2.286" layer="94"/>
+<attribute name="SHEET" x="100.965" y="-63.5" size="2.54" layer="94"/>
+</instance>
 </instances>
 <busses>
 </busses>
