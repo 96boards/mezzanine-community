@@ -49,6 +49,7 @@ the schematic to change the footprint.
 
 ## Authors
 
+- Thore Krug, opensource@thorekrug.de
 - Rafael Christ, rafaelchrist@gmail.com
 - Gustavo Retuci Pinheiro, gustavo_r_p@hotmail.com
 
