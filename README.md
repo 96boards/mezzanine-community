@@ -25,8 +25,9 @@ An informal steering committee of community members will allocate resources to a
 
 ## Acknowledgement
 
-- Michael Welling, mwelling@ieee.org - Lead Maintainer
-- Thore Krug - Maintainer
+
+- Thore Krug, opensource@thorekrug.de - Lead Maintainer
+- Michael Welling, mwelling@ieee.org - Maintainer
 - Robert Wolff, robert.wolff@linaro.org - Community
 - Rafael Christ, rafaelchrist@gmail.com - Altium / Eagle Reviewer
 - Gustavo Retuci Pinheiro, gustavo_r_p@hotmail.com - Altium / Eagle Reviewer
